@@ -1,0 +1,168 @@
+
+
+.col-lg-4{
+    background-color: #c39a7a; 
+    color: white;
+    padding:auto;
+}
+.col-4{
+    background-color: #1f1d1b;
+    color: white;
+    padding:auto;
+}
+body{
+font-family: arial;
+}
+.navbar-nav .nav-link.active , .nav-item:hover{
+background-color: #885e43;
+font-weight: bold;
+border-radius: 12px;
+}
+.nav-link{
+color: white;
+}
+
+.navbar-nav{
+    margin-left: 450px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+
+.age{
+width: 250px;
+margin-top: 25px;
+transition: transform .3s;
+}
+.age:hover{
+    transform: scale(1.1);
+}
+.bo{
+    background-color: #c39a7a;
+}
+.boe{
+    background-color:black;
+}
+.bo,.boe{
+border: 2px solid white;
+transition: border-radius .5s, width .3s,background-color .5s,color .1s;
+width: 200px;
+color: white;
+}
+.bo:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 210px;
+    color:black;
+}
+.boe:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 210px;
+    color:black;
+}
+#a,.c{
+    width: 380px;
+    margin-left: 25px;
+}
+
+.glass{
+    width: 250px;
+    height: 400px;
+    margin-top: 25px;
+    transition: transform .3s;
+}
+.glass:hover{
+    transform: scale(1.1);
+}
+.col-7 .row {
+    margin-left: 120px;
+    padding-top: 40px; 
+    
+}
+.cff{
+    font-size: 19px; 
+    color: black;
+    font-family: arial
+}
+@media only screen and (min-width: 2000px){
+    #a,#c{
+        width: 380px;
+        margin-left: 125px;
+    }
+    
+.col-lg-4{
+    background-color: #c39a7a; 
+    color: white;
+    padding:auto;
+}
+.col-4{
+    background-color: #1f1d1b;
+    color: white;
+    padding:auto;
+}
+body{
+font-family: arial;
+}
+.navbar-nav .nav-link.active , .nav-item:hover{
+background-color: #885e43;
+font-weight: bold;
+border-radius: 12px;
+}
+.nav-link{
+color: white;
+}
+.navbar-toggler{
+color: white;
+}
+.age{
+width: 380px;
+margin-top: 25px;
+transition: transform .3s;
+}
+.age:hover{
+    transform: scale(1.1);
+}
+
+.bo{
+    background-color: #c39a7a;
+}
+.boe{
+    background-color:black;
+}
+.bo,.boe{
+border: 2px solid white;
+transition: border-radius .5s, width .3s,background-color .5s,color .1s;
+width: 200px;
+color: white;
+}
+.bo:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 210px;
+    color:black;
+}
+.boe:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 210px;
+    color:black;
+}
+    .glass{
+        width: 380px;
+        height: 500px;
+        margin-top: 25px;
+        transition: transform .3s;
+    }
+    .glass:hover{
+        transform: scale(1.1);
+    }
+    .col-7 .row{
+        padding-top:98px;
+    }
+    .cff{
+        font-size: 20px; 
+        color: black;
+        font-family: arial
+    }
+}
