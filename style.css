@@ -12,6 +12,7 @@
 }
 body{
 font-family: arial;
+background-color:gray;
 }
 .navbar-nav .nav-link.active , .nav-item:hover{
 background-color: #885e43;
